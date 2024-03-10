@@ -1,0 +1,125 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/background/w44jcrl6iyk51.jpg'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Ensure the background is behind other content */
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(46, 46, 46, 0.43); /* Semi-transparent white background color for better contrast with blurred background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgba(248, 248, 248, 0.68);
+    text-align: center;
+    text-shadow: 0 0 10px #000000;
+}
+
+/* Search container styles */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    padding: 10px 15px;
+    margin: 0 10px;
+    width: 400px;
+    border-radius: 25px; /* Rounded search boxes */
+    border: none;
+    font-size: 16px;
+    background-color: rgba(46, 46, 46, 0.506); /* Semi-transparent white background color for better contrast with blurred background */
+    color: #fff; /* White text color */
+    outline: none; /* Remove the outline */
+}
+
+.search-logo {
+    border: none;
+    cursor: pointer;
+}
+
+.search-logo {
+    width: 30px;
+    height: 30px;
+}
+
+/* Fast Links styles */
+#fast-links {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#fast-links li {
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+#fast-links li a {
+    display: block;
+    padding: 5px 10px;
+    background-color: rgba(46, 46, 46, 0.43);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#fast-links li a:hover {
+    background-color: #777; /* Slightly lighter on hover */
+}
+
+/* Fast Links styles */
+#ChatBots {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center; /* Center the contents of the list */
+}
+
+#ChatBots li {
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+#ChatBots li a {
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#ChatBots li a:hover {
+    background-color: #777; /* Slightly lighter on hover */
+}
+
+/* CSS Styles */
+.chatbot-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    /* Add any additional styling here */
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Firefox Start Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="clearQueries()">
+    <div class="background"></div> <!-- New div for blurred background -->
+    <div class="container">
+        <h1>Search Engines</h1>
+        <div class="search-container">
+                <img class = "search-logo" src="assets/search-logo/google_logo.png" alt="Google Logo">
+                <input type="text" id="google-search" class="search-box" placeholder="Search on Google" onkeypress="searchOnEnter(event, searchGoogle)">
+        </div>
+        <div class="search-container">
+                <img class = "search-logo" src="assets/search-logo/duckduckgo_logo.png" alt="DuckDuckGo Logo">
+                <input type="text" id="duckduckgo-search" class="search-box" placeholder="Search on DuckDuckGo" onkeypress="searchOnEnter(event, searchDuckDuckGo)">
+        </div>
+        <div class="search-container">
+                <img class = "search-logo" src="assets/search-logo/bing_logo.png" alt="Bing Logo">
+                <input type="text" id="bing-search" class="search-box" placeholder="Search on Bing" onkeypress="searchOnEnter(event, searchBing)">
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Fast Links</h1>
+        <ul id="fast-links">
+            <!-- Fast links will be added dynamically using JavaScript -->
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>ChatBots</h1>
+        <ul id="ChatBots">
+            <!-- Fast links will be added dynamically using JavaScript -->
+        </ul>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
