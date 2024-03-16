@@ -2,9 +2,6 @@
 const fastLinks = [
     { name: "YouTube", url: "https://www.youtube.com/" },
     { name: "Twitch", url: "https://www.twitch.tv/" },
-    { name: "Portail", url: "https://portail.henallux.be/" },
-    { name: "Moodle", url: "https://moodle.henallux.be/my/courses.php" },
-    { name: "Site Patro", url: "https://manage.wix.com/dashboard/509c29d0-072e-4b80-95f7-b265ebc1c716/activity/" },
     { name: "Reddit", url: "https://www.reddit.com/" },
     { name: "Twitter", url: "https://twitter.com/home"},
 
